@@ -1,0 +1,58 @@
+# build prop start
+ro.build.release_type=true
+persist.sys.assert.state=false
+persist.sys.assert.panic=false
+persist.sys.dump=0
+persist.sys.powerkeydump=0
+persist.sys.assert.enabletip=0
+persist.sys.log.user=1
+persist.sys.mtk.pwkdump=0
+persist.vendor.engineer.hide.log=6996
+persist.vendor.engineer.hide.warn=6776
+ro.product.bootreg.disable.command=true
+persist.vendor.radio.telecom.vibrate=0
+ro.build.device_family=OPMT6893
+ro.soc.model=MT6893
+ro.soc.manufacturer=Mediatek
+ro.oplus.system.camera.name=com.oplus.camera
+ro.oplus.audio.effect.type=dirac
+odm.dirac.path=odm/etc/dirac
+persist.odm.dirac.acs.controller=afm
+persist.odm.dirac.acs.ignore_error=1
+persist.odm.dirac.acs.startAtBoot=3
+persist.odm.dirac.afm.mode=global
+ro.odm.dirac.acs.storeSettings=1
+ro.odm.dirac.config=184
+ro.odm.dirac.max_active.headset=5
+ro.odm.dirac.max_active.powersound=3
+ro.odm.dirac.poolsize=3
+ro.oplus.screenhole.border=11
+ro.separate.soft=20730
+ro.build.kernel.id=4.9.190
+ro.rom.featrue=allnet
+ro.product.authentication=2021CP4386
+ro.product.hw=20730
+ro.vendor.oplus.market.name=RMX3085
+ro.build.product=RMX3085
+ro.vendor.product.oem=RMX3085
+ro.vendor.product.device.oem=RMX3085
+ro.commonsoft.ota=RMX3085
+ro.sys.reserve.integrate=true
+persist.sys.oplus.fusionlight=true
+persist.sys.oplus.proximity=true
+persist.sys.obrain_obfuscate.enable=1
+persist.sys.oplus.nandswap.condition=true
+persist.sys.oplus.nandswap=true
+persist.version.confidential=false
+ro.version.confidential=false
+ro.build.display.id=RMX3085_11_A.01
+ro.build.display.id_ims=RMX3085_11_A.01_220319
+ro.mediatek.version.release=RMX3085_11_A.01_220319
+ro.vendor.mediatek.version.release=RMX3085_11_A.01_220319
+ro.vendor.oplus.aal.backlight.bits=12
+# Auto-added by post_process_props.py
+ro.oplus.image.odm.type=20730
+import /odm/etc/${ro.boot.prjname}/build.prop
+import /mnt/vendor/my_manifest/build.prop
+# DONOT_GENERATE_FEC is 
+ro.oplus.image.odm.version=version_stub.5db645b2
